@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className={css.inner}>
                     <ul className={css.footerMenu}>
                         <li className={css.footerItem}>genzennparcon.com</li>
-                        <li className={css.footerItem}>linkdin</li>
+                        <li className={css.footerItem}>linkedin</li>
                         <li className={css.footerItem}>dribble</li>
                         <li className={css.footerItem}>instagram</li>
                     </ul>
