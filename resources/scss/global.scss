@@ -1,0 +1,17 @@
+//
+// Settings
+//
+// @import '~normalize.css';
+@import 'global/01-s-variables';
+@import 'global/01-s-breakpoints';
+
+//
+// Generic
+//
+@import 'global/03-g-border-box';
+@import 'global/03-g-fonts';
+
+//
+// Elements
+//
+@import 'global/04-e-page';

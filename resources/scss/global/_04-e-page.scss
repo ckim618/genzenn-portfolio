@@ -1,0 +1,44 @@
+/* ------------------------------------ *\
+    #PAGE
+\* ------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//
+// HTML
+//
+html {
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background: #fff;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: rem(16px);
+}

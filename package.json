@@ -1,0 +1,44 @@
+{
+  "name": "genzenn-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "yarn build && next export",
+    "eslint": "eslint \"**/*.js\" --fix",
+    "prettier": "prettier --write '**/*.+(js|jsx|json|ts|tsx|css|scss)'",
+    "serve": "npx http-server ./out"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "babel-eslint": "^10.0.3",
+    "classcat": "^4.0.2",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "http-server": "^0.12.0",
+    "next": "^9.1.4",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "sass-resources-loader": "^2.0.1",
+    "style-loader": "^1.0.0",
+    "styled-jsx": "^3.2.2",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-order": "^3.1.0",
+    "stylelint-scss": "^3.10.1"
+  },
+  "devDependencies": {
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2"
+  }
+}
