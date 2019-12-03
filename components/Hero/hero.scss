@@ -4,25 +4,38 @@
 }
 
 .title {
-    font-size: rem(100px);
+    font-size: rem(70px);
     font-weight: 400;
-    letter-spacing: -10px;
+    letter-spacing: -5px;
     text-align: right;
+
+    @include media('sm') {
+        font-size: rem(100px);
+        letter-spacing: -10px;
+    }
 }
 
 .titleSmall {
-    font-size: rem(75px);
+    font-size: rem(45px);
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: -2px;
+
+    @include media('sm') {
+        font-size: rem(75px);
+    }
 }
 
 .text {
     max-width: 842px;
     width: 100%;
     margin: 0 auto;
-    font-size: rem(31px);
+    font-size: rem(24px);
     font-weight: 400;
     line-height: (40 / 31);
     letter-spacing: -2px;
+
+    @include media('sm') {
+        font-size: rem(31px);
+    }
 }

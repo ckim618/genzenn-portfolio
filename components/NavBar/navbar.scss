@@ -8,8 +8,12 @@
 }
 
 .logo {
-    font-size: rem(120px);
+    font-size: rem(70px);
     line-height: 1;
+
+    @include media('sm') {
+        font-size: rem(120px);
+    }
 }
 
 .hamburger {
@@ -101,7 +105,7 @@
 }
 
 .menuItem {
-    padding: 0 6%;
+    padding: 0 25px;
 }
 
 .mobileMenu {
